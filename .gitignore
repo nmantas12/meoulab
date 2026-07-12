@@ -1,0 +1,8 @@
+# Να ΜΗΝ ανέβουν στο GitHub / GitHub Pages
+.venv/
+*.pdf
+assets/_original/
+
+# Λοιπά
+.DS_Store
+Thumbs.db
