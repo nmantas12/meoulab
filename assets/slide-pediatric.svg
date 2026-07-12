@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Παιδική αιμοληψία — φιλικό περιβάλλον">
+  <defs>
+    <linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6eefb"/>
+      <stop offset="1" stop-color="#e6d6f2"/>
+    </linearGradient>
+    <linearGradient id="pdrop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a98ccb"/>
+      <stop offset="1" stop-color="#8d71b0"/>
+    </linearGradient>
+    <radialGradient id="pglow" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#pbg)"/>
+  <circle cx="1180" cy="380" r="420" fill="url(#pglow)"/>
+  <circle cx="300" cy="880" r="260" fill="#ffffff" opacity="0.28"/>
+  <circle cx="1420" cy="120" r="150" fill="#ffffff" opacity="0.3"/>
+
+  <!-- decorative stars & plus -->
+  <g fill="#b79fce" opacity="0.7">
+    <path d="M760 190 l10 26 26 10 -26 10 -10 26 -10 -26 -26 -10 26 -10z"/>
+    <path d="M1430 470 l8 20 20 8 -20 8 -8 20 -8 -20 -20 -8 20 -8z"/>
+  </g>
+  <g stroke="#c9b4dd" stroke-width="9" stroke-linecap="round" opacity="0.7">
+    <path d="M860 720 h44 M882 698 v44"/>
+    <path d="M1360 760 h34 M1377 743 v34"/>
+    <path d="M700 420 h34 M717 403 v34"/>
+  </g>
+
+  <!-- soft ground shadow -->
+  <ellipse cx="1060" cy="880" rx="330" ry="46" fill="#7a4d95" opacity="0.12"/>
+
+  <!-- Friendly droplet mascot -->
+  <g transform="translate(1060 470)">
+    <!-- arms -->
+    <path d="M-150 120 q-90 20 -120 -40" fill="none" stroke="#8d71b0" stroke-width="26" stroke-linecap="round"/>
+    <path d="M150 120 q100 -6 140 60" fill="none" stroke="#8d71b0" stroke-width="26" stroke-linecap="round"/>
+    <circle cx="-278" cy="70" r="24" fill="#a98ccb"/>
+    <circle cx="298" cy="188" r="24" fill="#a98ccb"/>
+
+    <!-- body -->
+    <path d="M0 -230 C 78 -120 150 -50 150 40 A 150 150 0 1 1 -150 40 C -150 -50 -78 -120 0 -230 Z" fill="url(#pdrop)"/>
+    <path d="M-70 -70 C -110 -20 -118 30 -100 70" fill="none" stroke="#ffffff" stroke-width="16" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- band-aid on body -->
+    <g transform="translate(74 -6) rotate(38)">
+      <rect x="-52" y="-20" width="104" height="40" rx="20" fill="#f6eefb"/>
+      <rect x="-16" y="-20" width="32" height="40" fill="#e7d3f0"/>
+      <g fill="#c9b4dd"><circle cx="-6" cy="-6" r="3"/><circle cx="6" cy="-6" r="3"/><circle cx="-6" cy="6" r="3"/><circle cx="6" cy="6" r="3"/></g>
+    </g>
+
+    <!-- face -->
+    <g transform="translate(0 20)">
+      <circle cx="-42" cy="-18" r="15" fill="#3f1e52"/>
+      <circle cx="42" cy="-18" r="15" fill="#3f1e52"/>
+      <circle cx="-37" cy="-23" r="5" fill="#fff"/>
+      <circle cx="47" cy="-23" r="5" fill="#fff"/>
+      <ellipse cx="-72" cy="16" rx="18" ry="12" fill="#e79bb0" opacity="0.75"/>
+      <ellipse cx="72" cy="16" rx="18" ry="12" fill="#e79bb0" opacity="0.75"/>
+      <path d="M-34 18 q34 40 68 0" fill="none" stroke="#3f1e52" stroke-width="9" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- floating heart in the waving hand -->
+  <path d="M298 148 c-18 -22 -54 -10 -54 18 0 22 30 40 54 60 24 -20 54 -38 54 -60 0 -28 -36 -40 -54 -18z" fill="#e79bb0" transform="translate(0 -6)"/>
+
+  <!-- little balloon -->
+  <g transform="translate(300 470)">
+    <path d="M0 0 v120" stroke="#b79fce" stroke-width="4"/>
+    <ellipse cx="0" cy="-40" rx="52" ry="62" fill="#c9b4dd"/>
+    <ellipse cx="-16" cy="-58" rx="14" ry="20" fill="#ffffff" opacity="0.5"/>
+  </g>
+</svg>

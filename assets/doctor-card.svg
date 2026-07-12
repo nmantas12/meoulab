@@ -1,0 +1,23 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1000" rx="44" fill="#F8F5FA"/>
+  <rect x="48" y="48" width="1504" height="904" rx="36" fill="#FFFFFF" stroke="#DDD7E2" stroke-width="4"/>
+  <circle cx="1292" cy="212" r="158" fill="#EFE7F4"/>
+  <circle cx="1366" cy="804" r="118" fill="#F4EEF7"/>
+  <path d="M136 178C136 157.013 153.013 140 174 140H478C498.987 140 516 157.013 516 178V258H136V178Z" fill="#8B749D"/>
+  <text x="176" y="221" fill="white" font-family="Georgia, Times New Roman, serif" font-size="66" font-weight="700">Meoulab</text>
+  <text x="176" y="328" fill="#8B749D" font-family="Aptos, Segoe UI, sans-serif" font-size="28" letter-spacing="6">ΙΑΤΡΙΚΟ ΜΙΚΡΟΒΙΟΛΟΓΙΚΟ ΕΡΓΑΣΤΗΡΙΟ</text>
+  <text x="176" y="436" fill="#413848" font-family="Georgia, Times New Roman, serif" font-size="76" font-weight="700">Μαρία Μαίου Ζιώγκου</text>
+  <text x="176" y="506" fill="#6F6477" font-family="Aptos, Segoe UI, sans-serif" font-size="42">Ιατρός Μικροβιολόγος - Βιοπαθολόγος</text>
+  <line x1="176" y1="568" x2="964" y2="568" stroke="#C9B8D6" stroke-width="6" stroke-linecap="round"/>
+  <text x="176" y="646" fill="#413848" font-family="Aptos, Segoe UI, sans-serif" font-size="34">Απόλλωνος 6 &amp; Βύρωνος, Εμπορικό Κέντρο, 2ος όροφος</text>
+  <text x="176" y="694" fill="#73697C" font-family="Aptos, Segoe UI, sans-serif" font-size="30">421 31 Τρίκαλα · Τηλ. 24310 38880 · Κιν. 6936 638690</text>
+  <text x="176" y="778" fill="#413848" font-family="Aptos, Segoe UI, sans-serif" font-size="34">Δημοκρατίας 5, Οιχαλία Τρικάλων</text>
+  <text x="176" y="826" fill="#73697C" font-family="Aptos, Segoe UI, sans-serif" font-size="30">Τηλ. 24330 31949 · Κιν. 6936 638690</text>
+  <text x="176" y="896" fill="#8B749D" font-family="Aptos, Segoe UI, sans-serif" font-size="30">meoulab@gmail.com</text>
+  <g opacity="0.85">
+    <circle cx="1284" cy="220" r="94" fill="#FFFFFF" stroke="#C9B8D6" stroke-width="10"/>
+    <path d="M1242 224C1242 196.386 1264.39 174 1292 174C1319.61 174 1342 196.386 1342 224V284H1242V224Z" fill="#C9B8D6"/>
+    <circle cx="1292" cy="159" r="39" fill="#C9B8D6"/>
+    <path d="M1232 316C1232 292.804 1250.8 274 1274 274H1310C1333.2 274 1352 292.804 1352 316V404H1232V316Z" fill="#8B749D"/>
+  </g>
+</svg>

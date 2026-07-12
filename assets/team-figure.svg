@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="DNA και εργαστηριακές φιάλες">
+  <defs>
+    <linearGradient id="tg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3eaf9"/>
+      <stop offset="1" stop-color="#dcc9ec"/>
+    </linearGradient>
+    <radialGradient id="tgl" cx="0.5" cy="0.34" r="0.62">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="liq" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a98ccb"/>
+      <stop offset="1" stop-color="#7a4d95"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#tg)"/>
+  <circle cx="400" cy="360" r="330" fill="url(#tgl)"/>
+  <circle cx="150" cy="840" r="150" fill="#ffffff" opacity="0.20"/>
+  <circle cx="670" cy="770" r="120" fill="#ffffff" opacity="0.18"/>
+
+  <!-- sparkles -->
+  <g fill="#b79fce" opacity="0.7">
+    <path d="M150 300 l10 25 25 10 -25 10 -10 25 -10 -25 -25 -10 25 -10z"/>
+    <path d="M640 250 l8 20 20 8 -20 8 -8 20 -8 -20 -20 -8 20 -8z"/>
+  </g>
+
+  <!-- ===================== DNA double helix ===================== -->
+  <g>
+    <!-- rungs -->
+    <g stroke-linecap="round">
+      <path d="M345 158 H455" stroke="#c4aede" stroke-width="8"/>
+      <path d="M295 190 H505" stroke="#8d71b0" stroke-width="8"/>
+      <path d="M345 222 H455" stroke="#c4aede" stroke-width="8"/>
+      <path d="M345 298 H455" stroke="#c4aede" stroke-width="8"/>
+      <path d="M295 330 H505" stroke="#8d71b0" stroke-width="8"/>
+      <path d="M345 362 H455" stroke="#c4aede" stroke-width="8"/>
+      <path d="M345 438 H455" stroke="#c4aede" stroke-width="8"/>
+      <path d="M295 470 H505" stroke="#8d71b0" stroke-width="8"/>
+      <path d="M345 502 H455" stroke="#c4aede" stroke-width="8"/>
+    </g>
+    <!-- strands -->
+    <g fill="none" stroke="#7a4d95" stroke-width="12" stroke-linecap="round">
+      <path d="M400 118 C520 160 520 220 400 260 C280 300 280 360 400 400 C520 440 520 500 400 542"/>
+      <path d="M400 118 C280 160 280 220 400 260 C520 300 520 360 400 400 C280 440 280 500 400 542"/>
+    </g>
+    <!-- nodes at crossings -->
+    <g fill="#662282">
+      <circle cx="400" cy="120" r="7"/>
+      <circle cx="400" cy="260" r="7"/>
+      <circle cx="400" cy="400" r="7"/>
+      <circle cx="400" cy="540" r="7"/>
+    </g>
+  </g>
+
+  <!-- soft ground -->
+  <ellipse cx="400" cy="812" rx="230" ry="26" fill="#4f2668" opacity="0.12"/>
+
+  <!-- ===================== Glassware ===================== -->
+  <!-- Erlenmeyer flask -->
+  <g transform="translate(322 706)">
+    <rect x="-22" y="-98" width="44" height="12" rx="6" fill="#8d71b0"/>
+    <path d="M-15 -88 v42 L-66 74 a22 22 0 0 0 20 30 h82 a22 22 0 0 0 20 -30 L15 -46 v-42 Z" fill="#ffffff" stroke="#7a4d95" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M-48 32 L-66 74 a22 22 0 0 0 20 30 h82 a22 22 0 0 0 20 -30 L48 32 Z" fill="url(#liq)"/>
+    <circle cx="-10" cy="66" r="6" fill="#ffffff" opacity="0.55"/>
+    <circle cx="18" cy="80" r="4" fill="#ffffff" opacity="0.55"/>
+    <circle cx="2" cy="-60" r="5" fill="#c4aede"/>
+    <circle cx="-16" cy="-78" r="3.5" fill="#c4aede"/>
+  </g>
+
+  <!-- Test tube 1 -->
+  <g transform="translate(486 720)">
+    <ellipse cx="0" cy="-72" rx="21" ry="6" fill="#8d71b0"/>
+    <path d="M-21 -72 v96 a21 21 0 0 0 42 0 v-96" fill="#ffffff" stroke="#7a4d95" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M-21 -8 v32 a21 21 0 0 0 42 0 v-32 Z" fill="url(#liq)"/>
+    <circle cx="-6" cy="8" r="4.5" fill="#ffffff" opacity="0.55"/>
+    <circle cx="8" cy="22" r="3" fill="#ffffff" opacity="0.55"/>
+  </g>
+
+  <!-- Test tube 2 -->
+  <g transform="translate(548 734)">
+    <ellipse cx="0" cy="-60" rx="19" ry="5.5" fill="#8d71b0"/>
+    <path d="M-19 -60 v84 a19 19 0 0 0 38 0 v-84" fill="#ffffff" stroke="#7a4d95" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M-19 4 v20 a19 19 0 0 0 38 0 v-20 Z" fill="url(#liq)"/>
+    <circle cx="6" cy="16" r="3.5" fill="#ffffff" opacity="0.55"/>
+  </g>
+</svg>

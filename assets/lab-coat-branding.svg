@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Ιατρική ποδιά με σήμανση MEOULAB — Μαίου Μαρία">
+  <defs>
+    <linearGradient id="lbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6eefb"/>
+      <stop offset="1" stop-color="#e6d6f2"/>
+    </linearGradient>
+    <linearGradient id="coat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f3eef8"/>
+    </linearGradient>
+    <radialGradient id="lglow" cx="0.5" cy="0.35" r="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#lbg)"/>
+  <circle cx="900" cy="360" r="460" fill="url(#lglow)"/>
+  <circle cx="250" cy="820" r="220" fill="#ffffff" opacity="0.26"/>
+  <circle cx="1420" cy="760" r="150" fill="#ffffff" opacity="0.28"/>
+
+  <g transform="translate(800 90)">
+    <ellipse cx="0" cy="812" rx="330" ry="42" fill="#7a4d95" opacity="0.12"/>
+
+    <!-- body -->
+    <path d="M-128 60 L128 60 L268 250 L212 812 L-212 812 L-268 250 Z" fill="url(#coat)" stroke="#e0d6ea" stroke-width="6"/>
+
+    <!-- lapels -->
+    <path d="M-128 60 L0 210 L-70 320 L-176 168 Z" fill="#f7f2fb" stroke="#e0d6ea" stroke-width="5"/>
+    <path d="M128 60 L0 210 L70 320 L176 168 Z" fill="#f7f2fb" stroke="#e0d6ea" stroke-width="5"/>
+    <path d="M-128 60 L0 210 L128 60" fill="none" stroke="#d9cde6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- stethoscope draped on the right lapel, clear of center text -->
+    <g fill="none" stroke="#8d71b0" stroke-width="13" stroke-linecap="round">
+      <path d="M96 96 C 150 210 210 300 196 430 C 188 500 150 540 150 610"/>
+      <circle cx="92" cy="86" r="11" fill="#8d71b0"/>
+    </g>
+    <circle cx="150" cy="642" r="30" fill="#f3eef7" stroke="#8d71b0" stroke-width="13"/>
+
+    <!-- chest pocket (left) with microscope emblem -->
+    <rect x="-224" y="300" width="150" height="120" rx="14" fill="#f3eef7" stroke="#dbd0e6" stroke-width="4"/>
+    <g transform="translate(-149 360) scale(0.82)" stroke="#8d71b0" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-6 -34 l12 -7 9 15 -12 7z"/>
+      <path d="M4 -22 l-20 44 17 9 20 -44"/>
+      <path d="M-20 26 a36 36 0 1 0 44 24"/>
+      <path d="M-34 32 l44 20"/>
+      <path d="M-24 48 v16 M-24 64 h22"/>
+    </g>
+
+    <!-- center placket + buttons (below the branding) -->
+    <path d="M0 470 L2 812" stroke="#e5dcee" stroke-width="4"/>
+    <g fill="#c9b4dd"><circle cx="1" cy="560" r="9"/><circle cx="1" cy="650" r="9"/><circle cx="1" cy="740" r="9"/></g>
+
+    <!-- embroidered branding, centered -->
+    <text x="-4" y="410" text-anchor="middle" fill="#8d71b0" font-family="Manrope, Segoe UI, sans-serif" font-size="70" font-weight="800" letter-spacing="3">MEOULAB</text>
+    <text x="-4" y="456" text-anchor="middle" fill="#7a4d95" font-family="Manrope, Segoe UI, sans-serif" font-size="30" font-weight="600" letter-spacing="9">ΜΑΙΟΥ ΜΑΡΙΑ</text>
+    <rect x="-64" y="472" width="120" height="5" rx="2.5" fill="#c9b4dd"/>
+  </g>
+</svg>

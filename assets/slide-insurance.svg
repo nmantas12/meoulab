@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Συνεργασία με ασφαλιστικά ταμεία">
+  <defs>
+    <linearGradient id="ibg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6eefb"/>
+      <stop offset="1" stop-color="#e6d6f2"/>
+    </linearGradient>
+    <linearGradient id="ishield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a4d95"/>
+      <stop offset="1" stop-color="#662282"/>
+    </linearGradient>
+    <radialGradient id="iglow" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#ibg)"/>
+  <circle cx="1140" cy="380" r="440" fill="url(#iglow)"/>
+  <circle cx="340" cy="820" r="230" fill="#ffffff" opacity="0.26"/>
+
+  <ellipse cx="1080" cy="880" rx="360" ry="46" fill="#7a4d95" opacity="0.12"/>
+
+  <!-- back cards -->
+  <g transform="translate(760 300)">
+    <rect x="0" y="60" width="300" height="188" rx="22" fill="#ffffff" opacity="0.75" transform="rotate(-9)"/>
+  </g>
+
+  <!-- coverage card -->
+  <g transform="translate(720 360) rotate(-6)">
+    <rect x="0" y="0" width="360" height="220" rx="24" fill="#ffffff"/>
+    <rect x="0" y="0" width="360" height="52" rx="24" fill="#f0e5f3"/>
+    <rect x="26" y="86" width="150" height="16" rx="8" fill="#d9c6e8"/>
+    <rect x="26" y="118" width="240" height="12" rx="6" fill="#e7d3f0"/>
+    <rect x="26" y="146" width="200" height="12" rx="6" fill="#e7d3f0"/>
+    <circle cx="300" cy="150" r="34" fill="#8d71b0"/>
+    <path d="M286 150 l10 12 20 -24" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- central shield -->
+  <g transform="translate(1060 400)">
+    <path d="M0 -140 L150 -86 V44 C150 150 78 210 0 250 C -78 210 -150 150 -150 44 V-86 Z" fill="url(#ishield)"/>
+    <path d="M0 -140 L150 -86 V44 C150 150 78 210 0 250 Z" fill="#000000" opacity="0.08"/>
+    <circle cx="0" cy="46" r="76" fill="#ffffff"/>
+    <path d="M-34 46 l24 26 48 -58" fill="none" stroke="#662282" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- handshake glyph -->
+  <g transform="translate(360 500)" stroke="#8d71b0" stroke-width="16" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">
+    <path d="M-70 0 l50 -30 40 20 40 -20 50 30"/>
+    <path d="M-20 -10 l30 30 20 -14 26 26"/>
+  </g>
+
+  <!-- stars/plus -->
+  <g fill="#b79fce" opacity="0.7">
+    <path d="M700 210 l9 22 22 9 -22 9 -9 22 -9 -22 -22 -9 22 -9z"/>
+  </g>
+  <g stroke="#c9b4dd" stroke-width="8" stroke-linecap="round" opacity="0.7">
+    <path d="M1400 250 h32 M1416 234 v32"/>
+    <path d="M560 760 h32 M576 744 v32"/>
+  </g>
+</svg>
